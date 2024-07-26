@@ -8,8 +8,5 @@ export default [
   pluginPromise.configs["flat/recommended"],
 
   // prettier should be last
-  {
-    name: "@foretagsplatsen/main prettier plugin",
-    ...prettierRecommendedConfig,
-  },
+  prettierRecommendedConfig,
 ];
